@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Jiří Vrána - Portfolio</title>
+</head>
+<body>
+    <div class="mainContianer">
+        <svg class="flyerRed" viewBox="30 42 132 115" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#f26ca7" transform="translate(100 100)">
+                <animate
+                    attributeName="d"
+                    dur="6000ms"
+                    repeatCount="indefinite"
+                    values="
+                            M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z;
+                            M57.5,-14.2C67.3,11.4,62.9,46,46.5,56.1C30.1,66.1,1.6,51.6,-22.6,33.5C-46.7,15.4,-66.5,-6.3,-62,-24.7C-57.5,-43,-28.8,-58.1,-2.4,-57.3C23.9,-56.5,47.7,-39.9,57.5,-14.2Z;
+                            M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z"
+                    >
+                </animate>
+            />
+        </svg>
+        <svg class="flyerBlue" viewBox="30 42 132 115" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#00a8e8" transform="translate(100 100)">
+                <animate
+                    attributeName="d"
+                    dur="50000ms"
+                    repeatCount="indefinite"
+                    values="
+                            M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z;
+                            M57.5,-14.2C67.3,11.4,62.9,46,46.5,56.1C30.1,66.1,1.6,51.6,-22.6,33.5C-46.7,15.4,-66.5,-6.3,-62,-24.7C-57.5,-43,-28.8,-58.1,-2.4,-57.3C23.9,-56.5,47.7,-39.9,57.5,-14.2Z;
+                            M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z"
+                    >
+                </animate>
+            />
+        </svg>
+        <div class="header">
+            <nav>
+                <a href="index.html"><h1>Jiří Vrána</h1></a>
+                <div class="navbarContainer">
+                    <ul>
+                        <li><a href="#techStackContainer">Tech-Stack</a></li>
+                        <li> <a href="#projectContainer">Portfolio</a></li>
+                        <li><a href="#personalInfoContainer">O mě</a></li>
+                        <li><a href="#contactContainer">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div id="toggle">
+                    <i class="indicator"></i>
+                </div>
+            </nav>
+            <div class="mainText">
+                <p>Dobrý den, Jmenuji se Jiří Vrána a jsem Self-taught front-end developer ze Zlína se zaměřením na React</br> Vítejte na mojem portfolio Webu.</p>
+            </div>
+        </div>
+    </div>
+    <div id="techStackContainer">
+        <h2>Tech-stack</h2>
+        <div class="listOfTech">
+            <div class="oneTech">
+                <img class="techImgHTML" src="./img/HTML.png" alt="HTML logo">
+                <h3>HTML</h3>
+            </div>
+            <div class="oneTech">
+                <img class="techImgCSS" src="./img/CSS.png" alt="CSS logo">
+                <h3 class="h3CSS">CSS</h3>
+            </div>
+            <div class="oneTech">
+                <img class="techImgJS" src="./img/JS.png" alt="JS logo">
+                <h3>JS</h3>
+            </div>
+            <div class="oneTech">
+                <img class="techImgReact" src="./img/React.png" alt="React logo">
+                <h3 class="h3React">React</h3>
+            </div>
+            <div class="oneTech">
+                <img class="techImgGit" src="./img/Git.png" alt="Git logo">
+                <h3 class="h3Git">Git</h3>
+            </div>
+            <div class="oneTech">
+                <img class="techImgGithub" src="./img/Github.png" alt="Github logo">
+                <h3 class="h3Github">Github</h3>
+            </div>
+        </div>
+    </div>
+    <div id="projectContainer">
+        <h2 class="portfolioHeader">Portfolio</h2>
+        <div class="oneProject" id="responsibility1">
+            <div class="projectInfo">
+                <h4>Jídlo Domů.cz</h4>
+                <p class="projectInfoText">Jídlo domů je je stránka kde si uživatel může vybrat jídlo, zadat počet jídel, vložit do košíku a vyplnit osobní údaje pro dovoz.</p>
+                <div class="projectTech">
+                    <p>React</p>
+                    <p>CSS</p>
+                </div>
+                <div class="linkContainer">
+                    <a class="projectCode" href="https://github.com/jirivrana2000/JidloDomu" target="_blank"><p>Code</p><img class="projectImg" src="./img/Github.png" alt="Github Logo"></a>
+                    <a class="projectDemo" href="https://jidlo-domu.netlify.app" target="_blank"><p>Demo</p><img class="projectImg" src="./img/projectImg.png" alt=""></a>
+                </div>
+            </div>
+            <div class="oneProjectPreview">
+                <a href="https://jidlo-domu.netlify.app" target="_blank"><img src="./img/Jídlodomů.cz.png" alt="Náhled webu Jídlo domů.cz"></a>
+            </div>
+        </div>
+        <div class="oneProject">
+            <div class="oneProjectPreview">
+                <a href="https://crypto-coin-burza.netlify.app" target="_blank"><img src="./img/CryptoCoin.png" alt="Náhled webu Crypto Coin"></a>
+            </div>
+            <div class="projectInfo">
+                <h4>Crypto Coin</h4>
+                <p class="projectInfoText">Crypto Coin je aplikace na které může uživatel vidět pohyby cen 100 kryptoměn v přehledné tabulce, obsahuje přihlašovací formulář.</p>
+                <div class="projectTech">
+                    <p>React</p>
+                    <p>CSS</p>
+                </div>
+                <div class="linkContainer">
+                    <a class="projectCode" href="https://github.com/jirivrana2000/CryptoCoin" target="_blank"><p>Code</p><img class="projectImg" src="./img/Github.png" alt="Github Logo"></a>
+                    <a class="projectDemo" href="https://crypto-coin-burza.netlify.app" target="_blank"><p>Demo</p><img class="projectImg" src="./img/projectImg.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="oneProject" id="responsibility2">
+            <div class="projectInfo">
+                <h4>Fotím nemovitosti.cz</h4>
+                <p class="projectInfoText">Fotím nemovitosti je můj osobní portfolio web který jsem si udělal pro potřebu prezentace svojí práce fotografa nemovitostí.</p>
+                <div class="projectTech">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                </div>
+                <div class="linkContainer">
+                    <a class="projectCode" href="https://github.com/jirivrana2000/fotimnemovitosti" target="_blank"><p>Code</p><img class="projectImg" src="./img/Github.png" alt="Github Logo"></a>
+                    <a class="projectDemo" href="https://jirivrana2000.github.io/fotimnemovitosti/" target="_blank"><p>Demo</p><img class="projectImg" src="./img/projectImg.png" alt=""></a>
+                </div>
+            </div>
+            <div class="oneProjectPreview">
+                <a href="https://jirivrana2000.github.io/fotimnemovitosti/" target="_blank"><img src="./img/Fotímnemovitosti.cz.png" alt="Náhled webu Fotím nemovisti.cz"></a>
+            </div>
+        </div>
+        <div class="oneProject">
+            <div class="oneProjectPreview">
+                <img src="./img/Portfolio.png" alt="Náhled Portfolio webu">
+            </div>
+            <div class="projectInfo">
+                <h4>Portfolio Web</h4>
+                <p class="projectInfoText">Portfolio Web je stránka na které se právě nacházíte, můžete se podívat na její kód.</p>
+                <div class="projectTech">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                </div>
+                <div class="linkContainer">
+                    <div class="projectCode"><p>Code</p><img class="projectImg" src="./img/Github.png" alt="Github Logo"></div>
+                    <div class="projectDemo"><p>Demo</p><img class="projectImg" src="./img/projectImg.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="personalInfoContainer">
+        <h2>O mě</h2>
+        <div class="personalInfo">
+            <svg class="smallflyerRed" viewBox="30 42 132 115" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f26ca7" transform="translate(100 100)">
+                    <animate
+                        attributeName="d"
+                        dur="6000ms"
+                        repeatCount="indefinite"
+                        values="
+                                M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z;
+                                M57.5,-14.2C67.3,11.4,62.9,46,46.5,56.1C30.1,66.1,1.6,51.6,-22.6,33.5C-46.7,15.4,-66.5,-6.3,-62,-24.7C-57.5,-43,-28.8,-58.1,-2.4,-57.3C23.9,-56.5,47.7,-39.9,57.5,-14.2Z;
+                                M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z"
+                        >
+                    </animate>
+                />
+            </svg>
+            <svg class="smallflyerBlue" viewBox="30 42 132 115" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#00a8e8" transform="translate(100 100)">
+                    <animate
+                        attributeName="d"
+                        dur="50000ms"
+                        repeatCount="indefinite"
+                        values="
+                                M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z;
+                                M57.5,-14.2C67.3,11.4,62.9,46,46.5,56.1C30.1,66.1,1.6,51.6,-22.6,33.5C-46.7,15.4,-66.5,-6.3,-62,-24.7C-57.5,-43,-28.8,-58.1,-2.4,-57.3C23.9,-56.5,47.7,-39.9,57.5,-14.2Z;
+                                M59.3,-20C66.1,1.6,53.3,28.8,33,42.9C12.7,57.1,-15.3,58.3,-37.5,44C-59.8,29.6,-76.3,-0.2,-69.1,-22.4C-61.8,-44.5,-30.9,-58.9,-2.3,-58.2C26.3,-57.4,52.5,-41.5,59.3,-20Z"
+                        >
+                    </animate>
+                />
+            </svg>
+            <div class="personalInfoText">
+                <p>Jako front-end deverloper se zaměřuju na pixel perfect responzivní design webových aplikací.<br>Rád bych se připojil do týmu zkušených vývojářu a podílel se na vývoji webových aplikací, rozvíjel schoje schopnosti a učil se nové technologie.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="contactContainer">
+            <p class="contactHeader">Máte zájem o spolupráci? Ozvěte se mi!</p>
+            <div class="contact">
+                <div class="mail">
+                    <p>Mail</p>
+                    <a href="mailto:jirivrana2000@seznam.cz"><p>jirivrana2000@seznam.cz</p></a>
+                </div>
+                <div class="phone">
+                    <p>Telefon</p>
+                    <a href="tel:605 466 313"><p>605 466 313</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
