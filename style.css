@@ -78,12 +78,16 @@ body.active {
     overflow: hidden;
     min-width: 380px;
 }
+
 .header {
     position: absolute;
     z-index: 2;
     border-radius: 20px;
     height: calc(100vh - 30px);
     width: calc(100vw - 30px);
+    -webkit-backdrop-filter: blur(100px);
+    -moz-backdrop-filter: blur(100px);
+    -ms-fbackdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
     z-index: 1;
     display: flex;
@@ -465,6 +469,10 @@ h3{
     position: absolute;
     width: 1000px;
     height: 500px;
+    -webkit-backdrop-filter: blur(100px);
+    -moz-backdrop-filter: blur(100px);
+    -ms-fbackdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
     z-index: 1;
     display: flex;
