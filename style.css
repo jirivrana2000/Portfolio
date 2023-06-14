@@ -76,7 +76,7 @@ body.active {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-    min-width: 380px;
+    min-width: 250px;
 }
 
 .header {
@@ -93,7 +93,7 @@ body.active {
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-width: 380px;
+    min-width: 250px;
 }
 nav {
     display: flex;
@@ -278,7 +278,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 410px;
+    min-width: 280px;
 }
 h2 {
     font-size: clamp(50px, 7vw, 70px);
@@ -333,6 +333,11 @@ h3{
 .oneTech h3 {
     font-size: 25px;
 }
+
+
+
+
+
 #projectContainer {
     display: flex;
     flex-wrap: wrap;
@@ -368,7 +373,7 @@ h3{
     line-height: 24px;
     display: flex;
     align-items: center;
-    max-width: 280px;
+    max-width: 250px;  /*rfšfšfšfščfffrfefefefeferfe*/
     text-align: center;
 }
 .projectTech {
@@ -385,7 +390,7 @@ h3{
 .linkContainer {
     display: flex;
     margin: 20px;
-    width: 280px;
+    width: 250px;    /*rfšfšfšfščfffrfefefefeferfe*/
     justify-content: space-evenly;
 }
 .projectCode {
@@ -430,18 +435,27 @@ h3{
 .oneProjectPreview:hover img {
     object-position: bottom center;
 }
+
+
+
+
+
+
 #personalInfoContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 380px;
+    min-width: 280px;
+    margin: 0 auto;
+    xborder: 3px solid blue;
 }
 .personalInfoContainer h2 {
     margin-top: 5px;
     font-size: clamp(50px, 7vw, 70px);
 }
 .personalInfo {
+    xborder: 3px solid yellow;
     width: 1000px;
     height: 500px;
     margin-bottom: 100px;
@@ -466,43 +480,49 @@ h3{
     z-index: 0;
 }
 .personalInfoText {
+
+    xborder: 3px solid green;
     position: absolute;
     width: 1000px;
     height: 500px;
+    padding: 10px;
     -webkit-backdrop-filter: blur(100px);
     -moz-backdrop-filter: blur(100px);
     -ms-fbackdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
-    backdrop-filter: blur(100px);
     z-index: 1;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .personalInfoText p {
+    xborder: 3px solid red;
     z-index: 2;
-    margin: auto;
+    margin: 0;
     display: flex;
     text-align: block;
-    width: clamp(280px, 60vw, 800px);
+    xwidth: clamp(200px, 60vw, 800px);
     font-size: clamp(20px, 4vw, 30px);
     line-height: clamp(24px, 6vw, 50px);
-    min-width: 320px;
+    xmin-width: 320px;
 }
 footer {
     width: calc(100vw - 30px);
     color: #fff;
     background: rgb(242,108,167);
     background: linear-gradient(193deg, rgba(242,108,167,0.9) 0%, rgba(0,168,232,0.9) 100%);
-    margin: 15px;
+    margin: 15px auto;
     border-radius: 20px;
-    min-width: 380px
+    min-width: 250px;
+    xborder: 3px solid orange;
 }
 #contactContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
+    min-width: 250px;
 }
 .contactHeader {
     margin: 50px;
@@ -532,27 +552,39 @@ footer {
     width: 260px;
 }
 
+
+
+
+
+
+
 @media (max-width: 1000px) {
     #techStackContainer {
         width: 100vw;
         margin: 0;
+        padding: 0;
     }
     .listOfTech {
         width: 100vw;
-        min-width: 380px;
+        min-width: 280px;
         height: auto;
         border-radius: 0px;
     }
+    #personalInfoContainer {
+        width: 280px;
+    }
     .personalInfo {
         width: calc(100vw - 30px);
-        min-width: 380px;
+        margin: 15px;
+        min-width: 250px;
         height: 460px;
         margin-bottom: 0;
     }
     .personalInfoText {
         width: calc(100vw - 30px);
-        min-width: 380px;
+        min-width: 250px;
         height: 460px;
+        padding: 10px;
     }
 }
 
@@ -573,15 +605,18 @@ footer {
 }
 
 @media (max-width: 630px) {
+    .oneProject {
+        margin: 10px 0;
+    }
     .oneProjectPreview {
-        width: clamp(280px, 80vw, 535px);
-        height: clamp(183px, 53.3vw, 350px);
+        width: clamp(250px, 80vw, 535px);
+        height: clamp(163px, 53.3vw, 350px);
     }
 }
 
 @media (max-width: 600px) {
     nav {
-        min-width: 350px;
+        min-width: 280px;
         font-size: 16px;
         justify-content: space-between;
         position: fixed;
