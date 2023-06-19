@@ -78,7 +78,6 @@ body.active {
     overflow: hidden;
     min-width: 250px;
 }
-
 .header {
     position: absolute;
     z-index: 2;
@@ -329,15 +328,9 @@ h3{
     position: relative;
     top: -95px;
 }
-
 .oneTech h3 {
     font-size: 25px;
 }
-
-
-
-
-
 #projectContainer {
     display: flex;
     flex-wrap: wrap;
@@ -373,7 +366,7 @@ h3{
     line-height: 24px;
     display: flex;
     align-items: center;
-    max-width: 250px;  /*rfšfšfšfščfffrfefefefeferfe*/
+    max-width: 250px;
     text-align: center;
 }
 .projectTech {
@@ -390,7 +383,7 @@ h3{
 .linkContainer {
     display: flex;
     margin: 20px;
-    width: 250px;    /*rfšfšfšfščfffrfefefefeferfe*/
+    width: 250px;
     justify-content: space-evenly;
 }
 .projectCode {
@@ -435,12 +428,6 @@ h3{
 .oneProjectPreview:hover img {
     object-position: bottom center;
 }
-
-
-
-
-
-
 #personalInfoContainer{
     display: flex;
     flex-direction: column;
@@ -448,14 +435,12 @@ h3{
     align-items: center;
     min-width: 280px;
     margin: 0 auto;
-    xborder: 3px solid blue;
 }
 .personalInfoContainer h2 {
     margin-top: 5px;
     font-size: clamp(50px, 7vw, 70px);
 }
 .personalInfo {
-    xborder: 3px solid yellow;
     width: 1000px;
     height: 500px;
     margin-bottom: 100px;
@@ -480,8 +465,6 @@ h3{
     z-index: 0;
 }
 .personalInfoText {
-
-    xborder: 3px solid green;
     position: absolute;
     width: 1000px;
     height: 500px;
@@ -497,15 +480,13 @@ h3{
     flex-direction: column;
 }
 .personalInfoText p {
-    xborder: 3px solid red;
     z-index: 2;
-    margin: 0;
+    margin: 20px;
     display: flex;
     text-align: block;
-    xwidth: clamp(200px, 60vw, 800px);
     font-size: clamp(20px, 4vw, 30px);
     line-height: clamp(24px, 6vw, 50px);
-    xmin-width: 320px;
+    text-align: center;
 }
 footer {
     width: calc(100vw - 30px);
@@ -515,7 +496,6 @@ footer {
     margin: 15px auto;
     border-radius: 20px;
     min-width: 250px;
-    xborder: 3px solid orange;
 }
 #contactContainer {
     display: flex;
@@ -551,12 +531,6 @@ footer {
 .phone {
     width: 260px;
 }
-
-
-
-
-
-
 
 @media (max-width: 1000px) {
     #techStackContainer {
