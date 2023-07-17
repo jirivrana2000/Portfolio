@@ -67,7 +67,7 @@ body.active {
     background-color: #111;
     color: #fff;
 }
-.mainContianer {
+.main {
     height: calc(100vh - 30px);
     width: calc(100vw - 30px);
     margin-top: 15px;
@@ -166,7 +166,9 @@ nav a {
     line-height: clamp(30px, 6vw, 50px);
     margin: auto;
     width: clamp(240px, 80vw, 1200px);
-    padding-bottom: 90px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 .flyerRed {
@@ -271,7 +273,7 @@ nav a {
         transform: translate(50vw, 50vh);
     }
 }
-#techStackContainer {
+#techStack {
     width: 100vw;
     z-index: 3;
     display: flex;
@@ -305,6 +307,9 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    position: static;
+    opacity: 2;
+    z-index: 3;
 }
 .techImgHTML,
 .techImgCSS,
@@ -331,7 +336,7 @@ h3{
 .oneTech h3 {
     font-size: 25px;
 }
-#projectContainer {
+#project {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -355,7 +360,7 @@ h3{
     flex-direction: column;
     align-items: center;
 }
-.projectInfo h4 {
+.projectInfo h3 {
     font-size: 30px;
     margin: 30px;
 }
@@ -428,7 +433,7 @@ h3{
 .oneProjectPreview:hover img {
     object-position: bottom center;
 }
-#personalInfoContainer{
+#personalInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -497,7 +502,7 @@ footer {
     border-radius: 20px;
     min-width: 250px;
 }
-#contactContainer {
+#contact {
     display: flex;
     flex-direction: column;
     align-items: center;
