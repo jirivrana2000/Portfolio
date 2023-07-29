@@ -287,8 +287,7 @@ h2 {
     margin-bottom: 30px;
 }
 .listOfTech {
-    width: 1000px;
-    height: 550px;
+    width: 80vw;
     margin-bottom: 15px;
     border-radius: 20px;
     background: #fff;
@@ -315,6 +314,7 @@ h2 {
 .techImgCSS,
 .techImgJS,
 .techImgReact,
+.techImgTS,
 .techImgGit,
 .techImgGithub,
 h3{
