@@ -572,7 +572,8 @@ footer {
         flex-direction: column;
     }
     #responsibility1,
-    #responsibility2 {
+    #responsibility2,
+    #responsibility3 {
         flex-direction: column-reverse;
     }
 }
