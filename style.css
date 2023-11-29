@@ -169,6 +169,7 @@ nav a {
     min-height: 500px;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 .flyerRed {
@@ -444,38 +445,17 @@ h3{
 }
 .personalInfo {
     width: 1000px;
-    height: 500px;
+    min-height: fit-content;
     margin-bottom: 100px;
-    z-index: 1;
     border-radius: 20px;
     flex-wrap: wrap;
     position: relative;
     overflow: hidden;
-}
-.smallflyerRed {
-    width: auto;
-    height: 20vw;
-    position: absolute;
-    z-index: 1;
-    animation: flyRed 25s linear infinite;
-}
-.smallflyerBlue {
-    width: auto;
-    height: 30vw;
-    position: absolute;
-    animation: flyBlue 20s linear infinite;
-    z-index: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 .personalInfoText {
-    position: absolute;
-    width: 1000px;
-    height: 500px;
-    padding: 10px;
-    -webkit-backdrop-filter: blur(100px);
-    -moz-backdrop-filter: blur(100px);
-    -ms-fbackdrop-filter: blur(100px);
-    backdrop-filter: blur(100px);
-    z-index: 1;
+    min-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -534,7 +514,7 @@ footer {
     width: 260px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1010px) {
     #techStackContainer {
         width: 100vw;
         margin: 0;
@@ -553,13 +533,12 @@ footer {
         width: calc(100vw - 30px);
         margin: 15px;
         min-width: 250px;
-        height: 460px;
+        height: auto;
         margin-bottom: 0;
     }
     .personalInfoText {
         width: calc(100vw - 30px);
         min-width: 250px;
-        height: 460px;
         padding: 10px;
     }
 }
